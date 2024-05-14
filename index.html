@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <style>
+        @import url('https://fonts.cdnfonts.com/css/trending-topic');
+    </style> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="plane.ico">
+    <title>Аеропорт | BSflights</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="https://kbp.aero/wp-content/themes/borispol-magenta/img/logo_purple.svg" alt=""></a>
+        <div>
+            <div class="tel">
+                <div>
+                    <img src="https://kbp.aero/wp-content/themes/borispol-magenta/img/phone_677_NEW_MAGENTA.svg" alt="" width="20px" height="20px">
+                    <a href="tel:+380443399707">+38 044 339-97-07</a>
+                </div>
+                <div>
+                    <span>Kyiv</span>
+                    <span></span>
+                </div>
+            </div>
+            <nav>
+                <a href="index.html">For passengers</a>
+                <a href="">About airport</a>
+                <a href="VIP.html">VIP</a>
+                <a href="">Fast track</a>
+                <a href="account_reg.html">Registration</a>
+                <a href="account_log.html">Log in</a>
+                <a href="" class="lang_btn">UA</a>
+            </nav>
+        </div>
+    </header>
+    <div id="nav_space"></div>
+    <main>
+        <section id="info">
+            <span>Почувай себе як вдома. <br> Feel like home.</span>
+            <div class="Dep_and_arr">
+                <div id="Dep_and_arr_btns" >
+                    <div onclick="DepOrArr(0)" id="Dep_btn" class="activ_dep">Departures<img src="https://kbp.aero/wp-content/themes/borispol-magenta/img/departure_yellow.svg" alt=""></div>
+                    <div onclick="DepOrArr(1)" id="Arr_btn" class="off_arr">Arrivals <img src="https://kbp.aero/wp-content/themes/borispol-magenta/img/arrival_white.svg" alt=""></div>
+                <!-- https://kbp.aero/wp-content/themes/borispol-magenta/img/departure_white.svg
+                https://kbp.aero/wp-content/themes/borispol-magenta/img/departure_yellow.svg -->
+                </div>
+                <div class="Flights_table">
+                    <div class="Days_flights">
+                        <span>Yesterday</span>
+                        <span>Today</span>
+                        <span>All flights</span>
+                        <span>Tomorrow</span>
+                    </div>
+                    <div id="Dep_table" class="active_table">
+                        <span>Flights</span>
+                        <span>Time</span>
+                        <span>Destination</span>
+                        <span>Airline</span>
+                        <span>Terminal</span>
+                        <span>Gate</span>
+                        <span>Status</span>
+                    </div>
+                    <div id="Arr_table" class="off_table">
+                        <span>Flights</span>
+                        <span>Time</span>
+                        <span>Destination</span>
+                        <span>Airline</span>
+                        <span>Terminal</span>
+                        <span>Status</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="news">
+            <div>
+                <span>NEWS</span>
+                <span><i>23 May</i></span>
+                <p class="bold_p">Ministry for Restoration launches a pilot project on risk assessment of the corruption prevention 
+                    system at Boryspil Airport</p>
+                <p>A pilot project on risk assessment and audit of the corruption prevention system was launched at 
+                    Boryspil Airport. In particular, a system of procu...</p>
+            </div>
+            <div>
+                <span><i>24 May</i></span>
+                <p class="bold_p">Boryspil International Airport arranged a round table on aviation industry issues</p>
+                <p>On April 27, 2023, a round table was held at Boryspil International Airport to discuss aviation industry issues, where the following participants t...</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div><a href="">Parking <br> Bus ticket <br> VIP service <br> Fast track</a>
+        <a href="">Feedback</a>
+        <span>Require any assitance? <br> Please call:<a id="telef" href="tel:+380443399707">+38 044 339-97-07</a></span>
+        <div id="media_box">
+            <span>Sign up:</span>
+            <div>
+                <a href=""><img src="https://kbp.aero/wp-content/themes/borispol-magenta/img/facebook-logo_NEW_MAGENTA.svg" alt="" width="25" height="25"></a>
+                <a href=""><img src="https://kbp.aero/wp-content/themes/borispol-magenta/img/insta_MAGENTA.svg" alt="" width="25" height="25"></a>
+                <a href=""><img src="https://kbp.aero/wp-content/themes/borispol-magenta/img/yt.png" alt="" width="25" height="25"></a>
+            </div>        
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72278.14678313023!2d30.41996009238918!3d50.398535047492096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c9478d439dcb%3A0x27666bcb99529f88!2s(IEV)%20%C2%ABKyiv%C2%BB%20International%20Airport!5e0!3m2!1sru!2sua!4v1683305970255!5m2!1sru!2sua" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

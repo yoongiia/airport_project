@@ -1,0 +1,239 @@
+@import url('https://fonts.cdnfonts.com/css/trending-topic');
+@import url('https://fonts.cdnfonts.com/css/permiansanstypeface');
+body {
+    margin: 0;
+    /* width: 100%; */
+}
+header {
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    justify-content: space-between;
+}
+header > a > img {
+    height: 75px;
+    position: relative;
+    left: 7%;
+    margin-right: 4.5%;
+    top: 20px;
+    
+}
+header > div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.tel {
+    display: flex;
+    border-radius: 80px 0 0 0;
+    box-shadow: -3px -3px 5px lightgray;
+    width: 60%;
+    justify-content: space-between;
+    margin-left: 35%;
+    padding: 7px;
+    padding-left: 5%;
+    margin-top: 1%;
+}
+.tel > div > a {
+    text-decoration: none ;
+    color: gray
+}
+.tel > div > span {
+    text-decoration: none ;
+    color: gray
+}
+nav {
+    display: flex;
+    background-color: #673774;
+    justify-content: space-around;
+    border-radius: 80px 0 0 0;
+    padding: 1%;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 'PermianSansTypeface', sans-serif;
+}
+#nav_space{
+    height:96px;
+    width: 100%;
+}
+#info { 
+    /* margin-top: px; */
+    height: 675px;
+    background-image: url("https://kartinkin.net/uploads/posts/2022-03/1647052484_1-kartinkin-net-p-samolet-krasivie-kartinki-1.jpg");
+    background-size: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+    
+}
+#info > span {
+    color: white;
+    font-family: 'PermianSansTypeface', sans-serif;
+    display: flex;
+    position: relative;
+    left: 10%;
+    font-size: 30px;
+    text-shadow: rgb(209, 85, 234) 1px 0 10px;
+    
+}
+.Dep_and_arr{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+#Dep_and_arr_btns{
+    width: 30%;
+    display: flex;
+    justify-content: space-around ;
+    position: relative;
+    right: 1.05%;
+    
+}
+#Dep_and_arr_btns>div{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    
+    border-radius: 10px 10px 0 0 ;
+   
+    font-family: 'PermianSansTypeface', sans-serif;
+    padding-inline: 5%;
+}
+.activ_dep{
+    background-color: #673774;
+    color: #ffcc18;
+}
+.activ_arr{
+    background-color: #673774;
+    color: #ffcc18;
+}
+.off_dep{
+    background-color: #56375c;
+    color: white;
+}
+.off_arr{
+    background-color: #56375c;
+    color: white;
+}
+#Dep_and_arr_btns>div>img{
+    
+    width: 50px;
+    height: 50px;
+}
+
+.Flights_table  {
+    display: flex;
+    flex-direction: column;
+    background-color: #673774;
+    font-size: 21px;
+    font-family: 'PermianSansTypeface', sans-serif;
+    color: white;
+    align-items: center;
+    padding: 2%;    
+    border-radius: 0 10px 10px 10px;
+}
+.Days_flights {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 50%;
+    margin-bottom: 3.5%;
+
+
+
+}
+.Days_flights>span{
+    padding-bottom: 2px ;
+}
+.Days_flights>span:hover{
+    padding-bottom: 0;
+    border-bottom: solid 2px white;
+}
+#Dep_table{    
+    width: 100%;
+    color: #ffcc18;
+    padding-bottom:10px ;
+    border-bottom: solid 2px white;
+}
+.active_table{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.off_table{
+    display: none;
+}
+#Arr_table{
+    width: 100%;
+    color: #ffcc18;
+    padding-bottom:10px ;
+    border-bottom: solid 2px white;
+}
+#news {
+    background-image: url("https://i.pinimg.com/736x/5b/4a/ca/5b4acaf6921baf70c9005660d26908f3.jpg");
+    background-size: 100%;
+    height: 450px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'PermianSansTypeface', sans-serif;
+    color: gray;
+}
+#news > div {
+    
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+
+}
+#news > div > span {
+    font-family: 'PermianSansTypeface', sans-serif;
+    color: gray;
+}
+.bold_p {
+    font-weight: bold;
+}
+footer {
+    background-color: white;
+}
+footer > div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2% ;
+    padding-bottom: 2%;
+    
+}
+footer > div > a, span { 
+    font-family: 'PermianSansTypeface', sans-serif;
+    color: gray;
+    text-decoration: none;
+}
+#telef {
+    font-family: 'PermianSansTypeface', sans-serif;
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+#media_box {
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+}
+#media_box > div {
+    display: flex ;
+    justify-content: space-between;
+    margin-top: 10%;
+}
